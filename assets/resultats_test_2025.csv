@@ -1,0 +1,11 @@
+,MAE (€/m²),Erreur relative médiane (%),Ventes à ±10 % (%)
+Référence : médiane commune × type,818.0,15.9,34.3
+Régression linéaire (Ridge),765.0,15.3,34.2
+Plus proches voisins (k = 15),712.0,13.5,38.9
+Forêt aléatoire,637.0,11.7,43.8
+Réseau de neurones (MLP),715.0,14.1,36.7
+LightGBM,637.0,11.8,43.7
+XGBoost,648.0,12.0,43.4
+CatBoost,641.0,11.9,43.0
+LightGBM réglé,630.0,11.6,44.2
+Ensemble (LightGBM + XGBoost + CatBoost),636.0,11.8,43.8

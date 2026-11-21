@@ -1,0 +1,13 @@
+# Données DVF : jamais publiées (conditions d'utilisation)
+data/
+
+# Fichiers temporaires
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Fichiers recréés automatiquement
+notebooks/catboost_info/
+notebooks/anaconda_projects/
+assets/carte_20*.png
+notebooks/.virtual_documents/

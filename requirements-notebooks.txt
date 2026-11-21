@@ -1,0 +1,11 @@
+# Tout ce qu'il faut pour exécuter les notebooks et les scripts
+-r requirements.txt
+scikit-learn
+xgboost
+catboost
+shap
+matplotlib
+pyarrow
+contextily
+h3
+jupyterlab

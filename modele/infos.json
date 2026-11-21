@@ -1,0 +1,17 @@
+{
+  "quantiles_ratio": {
+    "q10": 0.758,
+    "q25": 0.88,
+    "q75": 1.11,
+    "q90": 1.252
+  },
+  "periode": "2021-2025",
+  "prix_a_date": "2025-12",
+  "ventes": 57244,
+  "scores_test": {
+    "annee": 2025,
+    "mae": 630,
+    "erreur_relative_mediane": 0.116,
+    "part_10_pct": 0.442
+  }
+}
