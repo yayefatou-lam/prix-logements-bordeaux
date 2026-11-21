@@ -14,7 +14,7 @@
 
 Projet personnel de data science : à partir des ventes immobilières publiques (DVF), un modèle qui estime le prix d'un appartement ou d'une maison dans les 28 communes de Bordeaux Métropole, et une application pour l'utiliser.
 
-**[Tester l'application](LIEN_APPLICATION)** · **[Lire les notebooks](https://nbviewer.org/github/yayefatou-lam/prix-logements-bordeaux/tree/main/notebooks/)**
+**[Tester l'application](https://prix-logements-bordeaux.streamlit.app)** · **[Lire les notebooks](https://nbviewer.org/github/yayefatou-lam/prix-logements-bordeaux/tree/main/notebooks/)**
 
 ## Pourquoi ce projet ?
 
