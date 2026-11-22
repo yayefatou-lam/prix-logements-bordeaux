@@ -121,7 +121,8 @@ html { scroll-behavior: smooth; }
 /* Le bloc de la barre passe au-dessus du reste de la page, pour le menu déroulant */
 [data-testid="stElementContainer"]:has(.barre), .stMarkdown:has(.barre) { position: relative; z-index: 100; }
 /* Fond blanc sur toute la largeur de l'écran, sans couper le menu déroulant */
-.barre::before { content: ""; position: absolute; top: 0; bottom: 0; left: -100vmax; right: -100vmax;
+[data-testid="stMain"] { overflow-x: hidden; }
+.barre::before { content: ""; position: absolute; top: 0; bottom: 0; left: calc(50% - 50vw); right: calc(50% - 50vw);
   z-index: -1; background: #FFFDF9; border-bottom: 1px solid #E6DED2; }
 .barre a { text-decoration: none !important; }
 .marque { display: flex; align-items: center; gap: 12px; color: #2F3437 !important; }
